@@ -16,6 +16,14 @@ if (foo + bar > 15) {
   console.log("noooooooo");
 }
 
+var age = 50;
+
+//if else if
+
+if (age < 20) {
+  console.log("cannot drink");
+}
+
 /*data types
 
 boolean
