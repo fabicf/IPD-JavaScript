@@ -41,7 +41,7 @@ for (row = 0; row <= 3; row++) {
   console.log(output1);
 }
 
-console.log("================ my ex");
+console.log("================ my example =======");
 var i;
 var j;
 for (i = 0; i <= 4; i++) {
@@ -51,3 +51,4 @@ for (i = 0; i <= 4; i++) {
   }
   //console.log(myoutput);
 }
+​​

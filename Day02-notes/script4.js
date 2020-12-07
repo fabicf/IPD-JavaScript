@@ -1,11 +1,9 @@
 // while loop
 
+var maxNumber = 10;
 /// while (i < maxNumber){
 //     console.log(i)
 //  }
-
-var maxNumber = 10;
-
 console.log("===== while loop =============");
 //while loop
 var i = 15;
