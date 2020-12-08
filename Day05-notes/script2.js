@@ -2,28 +2,28 @@
 // 2. Create an array of those student objects
 // 3. Write a program that fetches a random student from an array of student objects
 
-var students = {
-  name: "John",
-  id: "Jo12",
-};
-
 const student1 = {
-  name: "Gerry",
-  id: 123,
+  name: "John",
+  studentID: "J4345489",
 };
 const student2 = {
-  name: "Terry",
-  id: 152,
+  name: "Doe",
+  studentID: "D4343513",
 };
 const student3 = {
-  name: "Mary",
-  id: 144,
+  name: "Teo",
+  studentID: "T13163164",
 };
 const student4 = {
-  name: "Larry",
-  id: 154,
+  name: "Anna",
+  studentID: "A34136434",
+};
+const student5 = {
+  name: "Julia",
+  studentID: "J5331644",
 };
 
-const studentsArray = [student1, student2, student3, student4];
-var random = studentsArray[Math.floor(Math.random() * studentsArray.length)];
+const myArray = [student1, student2, student3, student4, student5];
+var random = myArray[Math.floor(Math.random() * myArray.length)];
+
 console.log(random);
