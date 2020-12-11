@@ -1,0 +1,14 @@
+.container {
+  max-width: 800px;
+  margin: 10px auto;
+}
+h1 {
+  color: blue;
+}
+.view-text {
+  color: blue;
+  cursor: pointer;
+}
+#p-more-text {
+  display: none;
+}
