@@ -1,0 +1,39 @@
+body {
+  width: 300px;
+  margin: auto;
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+#container {
+  border: 1px solid blue;
+}
+
+#top {
+  padding-left: 40px;
+}
+
+#weather-ul {
+  padding-right: 20px;
+}
+
+#login-error {
+  padding-left: 40px;
+  padding-right: 20px;
+  /* border: 1px solid purple; */
+  color: red;
+}
+
+.today-box {
+  list-style: none;
+  padding-right: 20px;
+}
+
+#today-msg {
+  color: green;
+  font-style: italic;
+}
+
+h3 {
+  color: blue;
+}

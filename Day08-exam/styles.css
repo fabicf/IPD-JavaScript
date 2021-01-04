@@ -1,0 +1,10 @@
+.container {
+  max-width: 800px;
+  margin: 10px auto;
+}
+h1 {
+  color: blue;
+}
+.btn {
+  cursor: pointer;
+}

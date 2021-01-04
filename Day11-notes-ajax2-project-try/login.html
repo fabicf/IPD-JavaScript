@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast - JS Project</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div id="container">
+
+        <div id="top">
+            <h3>Login</h3>
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="passoword"><br><br>
+            <button value="Login" onclick="login()">Login</button>
+        </div>
+
+        <ul id="weather-ul"> </ul>
+
+        <ul class="today-box">
+            <li>Today's message: <span id="today-msg"></span>
+            </li>
+            <li>Today's date: <span id="today-date"></span> </li>
+            <li>Today's date: <span id="today-time"></span> </li>
+        </ul>
+
+        <ul id="login-error"></ul>
+
+        <script src="./js/jquery.min.js"></script>
+
+        <script src="./js/login.js"> </script>
+    </div>
+
+</body>
+
+</html>

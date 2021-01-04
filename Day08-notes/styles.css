@@ -1,0 +1,14 @@
+.container {
+  max-width: 1200px;
+  margin: 10px auto;
+}
+h1 {
+  color: red;
+}
+.btn {
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
